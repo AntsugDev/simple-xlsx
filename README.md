@@ -46,7 +46,7 @@ This define initial base row.
 5. **extra data**: this can to be string or array; if is defined and defaultRow greater one, into the  file xlsx is positioned before table
 6. **pathbase**: is directory of save file
 7. **len**: if defined extradata this represents the columns length
-8. **extracolor*: array, represents the possibility change color font and background
+8. **extracolor**: array, represents the possibility change color font and background
 
 ***
 
