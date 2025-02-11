@@ -88,11 +88,11 @@ This function create file. It's possible call this function with argument ZipArc
 ## EXAMPLE
 
 - [STAMDARD](example/standard.php)
-- [STANDARDWITH  EXTRA  DATA](example/standard  with  extra  data.php)
-- [STANDARD  WITH  EXTRA  DATA  CUSTOM](example/standard  with  extra  data  custom.php)
-- [STANDARD  WITH  ZIP](example/standard  with  zip.php)
+- [STANDARDWITH  EXTRA  DATA](example/standard_with_extra_data.php)
+- [STANDARD  WITH  EXTRA  DATA  CUSTOM](example/standard_with_extra_data_custom.php)
+- [STANDARD  WITH  ZIP](example/standard_with_zip.php)
 - [TWO SHEETS](example/twoSheets.php)
-- [HEADER  CUSTOM](example/header  custom.php)
+- [HEADER  CUSTOM](example/header_custom.php)
 - [FILL](example/fill.php)
-- [SHEET  NAME  CUSTOM](example/sheet  name  custom.php)
+- [SHEET  NAME  CUSTOM](example/sheet_name_custom.php)
 
