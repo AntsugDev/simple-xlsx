@@ -1,5 +1,5 @@
 {
-    "name": "AntsugDev/simple-xlsx",
+    "name": "antsugdev83/simple-xlsx",
     "description": "Simple create file xlsx",
     "require": {
         "php": ">=8.2",
