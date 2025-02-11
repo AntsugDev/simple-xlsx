@@ -75,7 +75,7 @@ The arguments are:
 - data
 - boolean value: if true define background column difference ('F2F3F4' or 'EAEDED')
 - position text : left,center or rigth
-- number format data: for this argument it is postponed [NumberFormat](PhpOffice\PhpSpreadsheet\Style\NumberFormat)
+- number format data: for this argument it is postponed [NumberFormat](https://github.com/PHPOffice/PhpSpreadsheet)
 - fill: the possibility custom background color column and bold or not bold text; this is an array
 
 *save*
