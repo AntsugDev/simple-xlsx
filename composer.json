@@ -1,0 +1,27 @@
+{
+    "name": "anton/simple-xlsx",
+    "description": "Simple create file xlsx",
+    "require": {
+        "php": ">=8.2",
+        "phpoffice/phpspreadsheet": "^4.0",
+        "ext-zip": "*",
+        "nesbot/carbon": "^3.8",
+        "illuminate/filesystem": "^11.41",
+        "illuminate/container": "^11.41",
+        "illuminate/config": "^11.41",
+        "guzzlehttp/guzzle": "^7.9",
+        "league/flysystem": "^3.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anton\\SimpleXlsx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Sugamele",
+            "email": "antonio.sugamele@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
