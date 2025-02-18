@@ -322,5 +322,22 @@ class SimpleXlsx
             $zipArchive->addFile($this->path, basename($this->path));
         }
     }
+	
+	  public function setMergeCells(int $index, string $from, string $to,string $dati, ?array $style = null): void
+    {
+        $sheet = $this->spreadsheet->getSheet($index);
+        $sheet->mergeCells($from.':'.$to);
+        $sheet->setCellValue($from,$dati);
+        if(!is_null($style)) $sheet->getStyle($from)->applyFromArray($style);
+    }
+
+    /**
+     * @throws Exception
+     */
+    public function getDimension(int $index, string $column, ?int $width = 40 ): void
+    {
+        $sheet = $this->spreadsheet->getSheet($index);
+        $sheet->getColumnDimension($column)->setWidth($width);
+    }
 
 }
